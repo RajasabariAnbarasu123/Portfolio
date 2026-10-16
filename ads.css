@@ -1,0 +1,88 @@
+/* =========================================
+   ADSENSE STYLES (load after style.css)
+========================================= */
+
+.ad-section {
+    padding: var(--space-xl) 0;
+}
+
+.ad-wrapper {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: var(--space-md);
+    background: var(--gray-50);
+    border: 1px dashed var(--gray-200);
+    border-radius: var(--radius-lg);
+    text-align: center;
+    overflow: hidden;
+}
+
+.ad-label {
+    display: block;
+    margin-bottom: var(--space-xs);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--gray-400);
+}
+
+.ad-wrapper .adsbygoogle {
+    display: block;
+    min-height: 90px;
+}
+
+/* Hidden automatically by ads.js when no ad is served */
+.ad-section.ad-hidden {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .ad-wrapper {
+        padding: var(--space-sm);
+    }
+}
+
+/* Privacy page */
+.legal-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: calc(var(--space-3xl) * 2) var(--space-xl) var(--space-3xl);
+}
+
+.legal-page h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--dark);
+    margin-bottom: var(--space-sm);
+}
+
+.legal-page h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin: var(--space-xl) 0 var(--space-sm);
+}
+
+.legal-page p,
+.legal-page li {
+    color: var(--gray-600);
+    line-height: 1.8;
+    margin-bottom: var(--space-sm);
+}
+
+.legal-page ul {
+    padding-left: var(--space-xl);
+}
+
+.legal-page a {
+    color: var(--primary);
+}
+
+.legal-back {
+    display: inline-block;
+    margin-bottom: var(--space-xl);
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--primary);
+}
